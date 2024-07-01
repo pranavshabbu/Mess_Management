@@ -1,0 +1,87 @@
+body::before{
+    height: 100%;
+    width: 100%;
+    opacity: 0.95;
+    top:0px;
+    content: "";
+    z-index: -1;
+    position: absolute;
+    background-image: url('background/bg2.jpg');
+    background-size: cover;
+}
+
+body{
+    font-family: "Poetsen One", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color:white;
+    
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0bba;
+}
+
+.left{
+    position: absolute;
+    left: 60px;
+    top:10px;
+    display: inline-block;
+    /* border: 2px solid white; */
+}
+
+.left img{
+    width:80px;
+}
+
+.center{
+    display: block;
+    width:28%;
+    /* border: 2px solid white; */
+    margin:10px auto;
+    font-size:70px;
+}
+
+.right{
+    position: absolute;
+    right: 60px;
+    top:30px;
+    display: inline-block;
+    /* border: 2px solid white; */
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:0px 20px;
+    border: 2px solid white;
+    background-image: url('background/contact.png');
+    background-size: contain;
+    background-position: center;
+    cursor:pointer;
+    opacity:70%;
+}
+
+.btn:hover{
+    opacity:100%;
+}
+
+.btn1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-image: url('background/help.png');
+    background-size: contain;
+    background-position: center;
+    cursor:pointer;
+    opacity:70%;
+}
+
+.btn1:hover{
+    opacity:100%;
+}
+
